@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	unsigned int num = 0;
-	string hex;
+	string entry;
 	
 	cout << "Convert a decimal integer to binary and hex" << endl;
 	cout << "Enter a positive decimal number: ";
@@ -24,21 +24,15 @@ int main()
 
 	cout << "Convert a binary number to a decimal integer." << endl;
 	cout << "Enter a binary number: ";
-	cin >> num;
-	cout << num << " is decimal " << bintodec(num, 0) << endl << endl;
+	cin >> entry;
+	cout << entry << " is decimal " << bintodec(entry, entry.length()) << endl;
 
 	cout << "Convert a hexadecimal number to a decimal integer." << endl;
 	cout << "Enter a hexadecimal number: ";
 	
-	cin >> hex;
-	cout << hex << " is decimal " << hextodec(hex, hex.length());
+	cin >> entry;
+	cout << entry << " is decimal " << hextodec(entry, entry.length()) << endl;
 	
-
-
-
-
-
-
-
+	system("PAUSE");
 	return 0;
 }
