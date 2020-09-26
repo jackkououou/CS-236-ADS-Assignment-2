@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "Header.h"
+#include "Decimal_conversion.h"
 
 using namespace std;
 
@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	unsigned int num = 0;
-	string entry;
+	string entry = "0";
 	
 	cout << "Convert a decimal integer to binary and hex" << endl;
 	cout << "Enter a positive decimal number: ";
